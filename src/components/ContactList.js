@@ -23,7 +23,7 @@ const ContactList = () => {
 
   return (
     <ContactListContainer>
-      <ContactListHeader>Lista de contato</ContactListHeader>
+      <ContactListHeader>Lista de contatos</ContactListHeader>
       <ContactListWrapper>
         {contacts.map((contact) => (
           <ContactItem key={contact.id} contact={contact} />
